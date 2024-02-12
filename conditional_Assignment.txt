@@ -1,0 +1,36 @@
+# largest of two number
+print("largest of two number")
+
+num1=23
+num2=34
+if num1>num2:
+    print("Number is largest:",num1)
+else:
+    print("Number is largest:",num2)
+    
+#largest of three number
+print("largest of three number")
+
+num1=23
+num2=45
+num3=67
+
+if num1>num2 and num1>num3:
+    print("Largest num is:",num1)
+elif num2>num1 and num2>num3:
+    print("Largest num is:",num2)
+else :
+    print("largest num is:",num3)
+    
+#print check positive and negative 
+
+user_num=int(input("Enter your number:"))
+
+if user_num>0:
+    print("number is positive")
+elif user_num<0:
+    print("number negative")
+else:
+    print("number is zero")
+    
+    

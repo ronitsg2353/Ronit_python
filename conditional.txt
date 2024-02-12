@@ -1,0 +1,63 @@
+#condtional statemt- if elif else
+
+age=23
+
+if age>=18:
+    print("age elgible for vote")
+else:
+    print("age not eligible for vote")
+    
+#Example 02
+if True:
+    print("true condition")
+else:
+    print("false condition")
+    
+if 1:
+    print("true condition")
+else:
+    print("false condition")
+  
+if 0:
+    print("false condtion")
+else:
+    print("true condtion")
+    
+#Find even or odd number
+
+num=int(input("Enter your number:"))
+
+if num%2==0:
+    print("user entered even number")
+else:
+    print("User entered odd number")
+    
+#Example 5:if else in single line(ternery operator)
+
+num=10
+print("even number") if num%2==0 else print("Odd number")
+
+#Example: if else multiple statement in single line
+a=20
+{print("HI"),print("Ronit")} if a>20 else {print("bye"), print("bye")}
+
+
+#Example if --elif --else condtion for multiple condtion
+
+weekno=1
+if weekno==1:
+    print("sunday")
+elif weekno==2:
+    print("monday")
+elif weekno==3:
+    print("tuesDAY")
+elif weekno==4:
+    print("wednesday")
+elif weekno==5:
+    print("thursday")
+elif weekno==6:
+    print("friday")
+elif weekno==7:
+    print("Saturday")
+else:
+    print("sorry! you entered invalid week no")

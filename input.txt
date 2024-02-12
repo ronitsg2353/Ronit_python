@@ -1,0 +1,18 @@
+
+#input from float
+
+num1=input("enter percentage of student 1:")
+num2=input("enter percentage of student 2:")
+
+print(type(num1))
+
+#Appraoch 01
+num3=float(input("enter percentage of student 3:"))
+num4=float(input("enter percentage of student 4"))
+
+print(type(num4))
+#Approach 02
+num5=(input("enter percentage of student 05:"))
+num6=(input("enter percentage of student 06:"))
+
+print(float(num5)+float(num6))
